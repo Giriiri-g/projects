@@ -1,0 +1,8 @@
+i
+sum
+LOOP
+R0
+STOP
+STOP
+R1
+END

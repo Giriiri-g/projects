@@ -1,0 +1,17 @@
+Grocery store project?
+
+
+requirements (Display + insider):
+	files:
+	stock file
+	stonks file
+	bills file?
+	programs:
+	main input file
+	with while True loop
+keyword = end
+	stock reducing
+	price adding
+	printing bill
+	add to stonks file
+	

@@ -1,0 +1,19 @@
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the custom checkbox */
+  input[type="checkbox"] + label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
+  }
+  
+  /* Style the checked state of the checkbox */
+  input[type="checkbox"]:checked + label {
+    background-color: red;
+  }
+  

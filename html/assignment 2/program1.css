@@ -1,0 +1,28 @@
+html{
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+body{
+    height: 100vh;
+    background-color: #212121;
+    margin-left:2.5vw;
+    padding:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.links{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    padding-top: 20px;
+    margin: 0px;
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}

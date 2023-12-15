@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <title>Test your Js</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        background-color: black;
+        display: flex;
+    }
+
+    .box {
+        flex-grow: 1;
+        margin: 1%;
+        background-color: black;
+        border: 2px solid #46B2A0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        color: #46B2A0;
+        font-family: Poppins, sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        text-decoration: underline;
+        text-align: center;
+        margin: 0;
+    }
+
+    button {
+        height: 30px;
+        width: 110px;
+        font-size: 24px;
+        font-weight: 700;
+        outline: none;
+        background-color: #46B2A0;
+        color: black;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .container-img {
+        height: 500px;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <h1 class="header">JavaScript Assignment</h1>
+        <div class="container-img">
+            <img id="img"
+                src="https://1.bp.blogspot.com/-6ik1sXaqRug/Ttfb3pJPcVI/AAAAAAAADvU/oJN0_lK9P4U/s1600/puss+in+boots2.jpg"
+                alt="img">
+        </div>
+        <button id="button-img">Change</button>
+    </div>
+    <script src="q9.js"></script>
+</body>
+</html>

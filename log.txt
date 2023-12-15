@@ -1,0 +1,18 @@
+function:
+	conversion of data
+	1. Au to pc
+	2. Au to ly
+	3. pc to ly
+	4. Au to m
+	5. pc to m
+	6. ly to m
+	finding distance -> using trigonometric calculations
+to do :
+	take input for what conversion
+	print the available functions
+		(or)
+	create multiple functions
+	with 2 parameters number and unit
+	total 4 functions for data conersion
+	1 function for distance calculation
+	since two unit for degree

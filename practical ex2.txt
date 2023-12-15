@@ -1,0 +1,185 @@
+NOTICE TO USER:
+
+ 
+
+
+
+
+1.	DEFINITIONS.
+
+
+
+
+
+2.1. License. 
+
+
+
+
+
+5. RESTRICTIONS.
+10. U.S. GOVERNMENT-RESTRICTED RIGHTS.
+
+==========================
+
+
+
+
+
+
+    0.9.0 thru 1.2              1991-1995   CWI         yes
+    1.3 thru 1.5.2  1.2         1995-1999   CNRI        yes
+    1.6             1.5.2       2000        CNRI        no
+    2.0             1.6         2000        BeOpen.com  no
+    1.6.1           1.6         2001        CNRI        yes (2)
+    2.1             2.0+1.6.1   2001        PSF         no
+    2.0.1           2.0+1.6.1   2001        PSF         yes
+    2.1.1           2.1+2.0.1   2001        PSF         yes
+    2.1.2           2.1.1       2002        PSF         yes
+    2.1.3           2.1.2       2002        PSF         yes
+
+Footnotes:
+
+
+
+
+
+===============================================================
+
+--------------------------------------------
+
+
+i.e., "Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,
+
+
+
+
+
+
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------
+
+
+permission.
+
+
+
+
+---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------
+
+rights reserved.
+
+
+
+
+
+   permission.
+
+
+bzip2/libbzip2 version 1.0.6 of 6 September 2010
+
+--------------------------------------------------------------------------
+
+
+  LICENSE ISSUES
+  ==============
+
+
+  OpenSSL License
+  ---------------
+
+/* ====================================================================
+ *
+ *
+ *
+ *    distribution.
+ *
+ *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+ *
+ *    openssl-core@openssl.org.
+ *
+ *    permission of the OpenSSL Project.
+ *
+ *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+ *
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * ====================================================================
+ *
+ * Hudson (tjh@cryptsoft.com).
+ *
+ */
+
+ -----------------------
+
+ *
+ *
+ *
+ *
+ *
+ *
+ * [including the GNU Public Licence.]
+ */
+
+
+
+
+
+
+terms specified in this license.
+
+
+
+
+
+terms specified in this license.
+
+Copyright (c) 2000-2001 Tix Project Group.
+
+
+
+
+
+terms specified in this license. 
+
+----------------------------------------------------------------------
+
+distribution is included in the file docs/license.tcltk.
+
+docs/license.html_lib.
+

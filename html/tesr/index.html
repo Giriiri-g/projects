@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>First Name : </label></td>
+                <td><input type="text" size="30" id="fname" placeholder="first name"></td>
+            </tr>
+            <tr>
+                <td><label>Middle Name : </label></td>
+                <td><input type="text" id="mname" placeholder="middle name"></td>
+            </tr>
+            <tr>
+                <td><label>Last Name : </label></td>
+                <td><input type="text" id="lname" placeholder="last name"></td>
+            </tr>
+            <tr>
+                <td><label>Password : </label></td>
+                <td><input type="password" id="pwd"></td>
+            </tr>
+            <tr>
+                <td><label for="select">Job Type</label></td>
+                <td>
+                    <select id="select" multiple>
+                        <optgroup label="Job Type">
+                            <option>Govt Sector</option>
+                            <option>Private Sector</option>
+                            <option selected>Self Employed</option>
+                            <option>Others</option>
+                        </optgroup>
+                        <optgroup label="stuff">
+                            <option>Kill Yourself</option>
+                            <option>Don't Kill Yourself</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date Of Birth</label>
+                </td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend align="top">Used For (check one)</legend>
+                        <table>
+                            <tr><td><input type="radio" name="test" value="value1"></td><td> Home</td></tr>
+                            <tr><td><input type="radio" name="test" value="value1"></td><td> Home1</td></tr>
+                            <tr><td><input type="radio" name="test" value="value1"></td><td> Home2</td></tr>
+                            <tr><td><input type="radio" name="test" value="value2"></td><td> Home3</td></tr>
+                            <input type="checkbox" id="myCheckbox">
+                            <label for="myCheckbox">test</label>
+                        </table>
+                    </fieldset> 
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

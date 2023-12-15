@@ -1,0 +1,508 @@
+.loader {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.9s ease-out;
+}
+#contribute {
+    position: absolute;
+    align-self: center;
+    bottom: 5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.5;
+    font-style: normal;
+    text-decoration-line: underline;
+    z-index: 2;
+}
+.loader.fade {
+    opacity: 0;
+}
+
+.loaderbar {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid gold;
+    height: 0px;
+    width: 0px;
+}
+
+.loadertext {
+    margin: 0px;
+    padding: 0px;
+    color: gold;
+}
+
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #262626;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#login {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 60%;
+    width: 25%;
+    position: absolute;
+    z-index: 900;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 5%;
+}
+
+.checkuser {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.checkuser label{
+    color: #858585;
+}
+
+#Email,
+#password {
+    height: 30px;
+    /* width: 50%; */
+    padding-left: 10px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Pridi;
+}
+
+.email,
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid white;
+}
+
+#lab {
+    font-size: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#remme {
+    color: #858585;
+}
+
+#frgtpass {
+    color: #858585;
+    text-decoration: none;
+}
+
+#button-login-submit {
+    padding: 0% 4% 0% 4%;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: lawngreen;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.1s;
+}
+
+#button-login-submit:active {
+    transform: scale(0.95);
+}
+
+#container {
+    width: 80%;
+    height: 98%;
+    margin: 1% 0 1% 0;
+    border-radius: 15px;
+    background: #171717;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+#container.fadein {
+    opacity: 1;
+}
+
+.blur {
+    pointer-events: none;
+    user-select: none;
+    filter: blur(3px);
+}
+
+.header {
+    width: 100%;
+    height: 13%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px 15px 0px 0px;
+    background: black;
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    justify-self: center;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: League Gothic;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 3.20px;
+    word-wrap: break-word
+}
+
+#button-login {
+    /* position: absolute; */
+    /* right: 50px; */
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: greenyellow;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    outline: none;
+}
+
+
+.main {
+    border-radius: 15px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5%;
+    z-index: 2;
+}
+
+#bgimg {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    right: 0;
+    transform: translateX(-70px);
+    bottom: 0;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100%;
+}
+
+.About-text {
+    color: white;
+    opacity: 0.6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 2.4px;
+    line-height: 30px;
+}
+
+.about-header {
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    text-decoration-line: underline;
+    color: white;
+    opacity: 1 !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-post,
+.button-collaborate {
+    color: black;
+    background-color: lawngreen;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 1% 2% 1% 2%;
+    outline: none;
+    border: 0;
+    transition: 0.9s;
+    width: 7em;
+}
+
+.button-post:hover,
+.button-collaborate:hover {
+    animation: button-bobble 0.5s;
+    background-color: lawngreen;
+}
+
+@keyframes button-bobble {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.postsvg {
+    display: none;
+}
+
+.right {
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+
+#topic-title {
+    font-family: 'Pridi', serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: lawngreen;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.topic-list {
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.topic-list ul,
+.topic-list ul li,
+.topic-list ul li a {
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+.topic-list ul li a:hover {
+    color: rgb(135, 135, 135);
+}
+
+#footer {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.5;
+    font-style: normal;
+    text-decoration-line: underline;
+    z-index: 2;
+}
+
+@media (max-width:1000px) and (min-width:768px){
+    .title {
+        font-size: 24px;
+    }
+
+    .logo{
+        width: 300px;
+        height: auto;
+        transform: translateX(-40px);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px){
+    .title {
+        font-size: 24px;
+        transform: translateX(20px);
+    }
+
+    .left{
+        gap: 30px;
+    }
+
+    #button-login{
+        right: 20px;
+        position: absolute;
+    }
+
+    .logo {
+        position: absolute;
+        left: 0;
+        transform: translateX(9px);
+        height: auto;
+        width: 120px;
+    }
+
+    .About-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .about-header {
+        font-size: 26px;
+    }
+
+    #topic-title {
+        font-size: 20px;
+    }
+
+    .topic-list ul{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    .topic-list ul li,
+    .topic-list ul li a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 426px) and (min-width:376px){
+    html, body{
+        height: 160vh;
+        width: 200vw;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .logo{
+        transform: translateX(0px);
+        width: 104px;
+        height: auto;
+    }
+
+    #bgimg{
+        transform: scale(0.9);
+        transform: translateX(-100px);
+    }
+}
+
+@media (max-width:376px) and (min-width:321px){
+    html, body{
+        height: 160vh;
+        width: 200vw;
+    }
+
+    .logo{
+        position: absolute;
+        left: 0px;
+        transform: translateX(10px);
+    }
+
+    .title{
+        font-size: 22px;
+        transform: translateX(35px);
+    }
+
+    #button-login{
+        position: absolute;
+        right: 10px;
+        padding: 0;
+        border-radius: 4px;
+        font-size: 24px;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:320px) {
+    .content{
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+    
+    html, body{
+        height: 160vh;
+        width: 200vw;
+    }
+
+    .logo{
+        transform: translateX(10px);
+    }
+}
+@keyframes fadeInAnimation {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

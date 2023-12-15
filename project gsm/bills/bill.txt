@@ -1,0 +1,20 @@
+        Welcome to Store_name
+             address
+          phone-xxxxxxxxxx
+    GSTIN-6ad46516153dfs654s65f4d
+          Bill of supply
+           Bill No: 000
+2022-06-14
+10:04:26
+Slno     ID             Name                     Quantity        MRP       Price     
+
+
+Total Cost :$0
+
+
+
+   Thank you for shopping at Store_name
+    for any queries call at xxxxxxxxxx
+     cashier:S GIRISH
+     counter:1
+      shop again between 7AM and 9AM

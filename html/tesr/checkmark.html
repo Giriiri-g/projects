@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Radio Button</title>
+    <style>
+        html {
+            background-color: black;
+            transition: background-color 0.3s ease;
+        }
+        
+        .theme {
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            color: #46B2A0;
+            cursor: pointer;
+        }
+        
+        .light {
+            background-color: #0A192F;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="theme" id="theme">
+        □&nbsp;LIGHT&#9;■&nbsp;DARK
+    </div>
+
+    <script>
+        const theme = document.getElementById('theme');
+
+        theme.addEventListener('click', function() {
+            document.documentElement.classList.toggle('light');
+            
+            if (document.documentElement.classList.contains('light')) {
+                theme.innerHTML = '■&nbsp;LIGHT&#9;□&nbsp;DARK';
+            } else {
+                theme.innerHTML = '□&nbsp;LIGHT&#9;■&nbsp;DARK';
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amrita Project Management System</title>
+    <link rel="stylesheet" href="description.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Pridi:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="amrita-c20-logo-white.png" alt="Amrita Vishwa Vidyapeetham" />
+            <button id="home" onclick="window.location.href='homenew.html'">Home</button>
+            <button id="post" onclick="window.location.href='stem.html'">Collaborate</button>
+            <div class="searchbar" id="searchBar">
+                <svg width="32" height="30" class="svgsearch" viewBox="0 0 32 30" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.237228" y="0.616516" width="31.5676" height="28.853" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_55_3" transform="matrix(0.0078125 0 0 0.00854752 0 -0.0470414)" />
+                        </pattern>
+                        <image id="image0_55_3" width="128" height="128"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <input type="text" id="search" placeholder="search" />
+            </div>
+            <input type="text" id="new_search" placeholder="search">
+
+            <span class="username">USER</span>
+            <img src="moonface.png" class="pp" alt="logo" style="height: 45px;">
+            <a href="#" class="settings">
+                <i class="fa-solid fa-gear" style="color: white; font-size: 1.75rem"></i>
+            </a>
+            <div class="menu_bar_img">
+                <a href="menu.html" class="menu_bar">
+                    <i class="fa-solid fa-bars" style="color: white; font-size: 1.75rem"></i>
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="heading">
+                <h1 style="text-decoration: underline;">Hyper Spectral Imaging</h1>
+            </div>
+            <div class="content">
+                <div class="abstract">
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur excepturi dolorem assumenda
+                        aut non neque maxime ducimus illum voluptas beatae. Laboriosam numquam vitae quis, eos nihil
+                        repellendus! Debitis soluta atque aspernatur cumque, inventore amet.</p>
+                </div>
+                <div class="hoster">
+                    <h2>Hoster</h2>
+                    <p>ACM AI</p>
+                </div>
+                <div class="pre_requisite">
+                    <h2>Pre Requisite</h2>
+                    <ul>
+                        <li>Programming</li>
+                        <li>Malware</li>
+                        <li>Hardware</li>
+                    </ul>
+                </div>
+                <div class="certificate">
+                    <h2>Certificate</h2>
+                    <p>Yes</p>
+                </div>
+                <div class="members">
+                    <h2>Team</h2>
+                    <p>requires a team of 3-5 members</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <button id="apply_button" onclick="showAlertAndReload()">
+                    <span>APPLY</span><img src="send.png" alt="send.png" style="transform: scale(1.2);">
+                </button>
+            </div>
+</body>
+
+</html>
